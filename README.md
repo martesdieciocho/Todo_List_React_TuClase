@@ -7,6 +7,7 @@ Este es un proyecto desarrollador para presentar la prueba técnica propuesta po
 - [Descripción](#descripción)
 - [Instalación](#instalación)
 - [Uso](#uso)
+- [Link](#link)
 - [Licencia](#licencia)
 
 ## Descripción
@@ -28,6 +29,10 @@ El uso de la app es:
     • Completar tarea: Al lado izquierdo de cada tarea, se dispondrá de un check que permite marcar la tarea como completada. Al clicar sobre este, el texto se subraya.
     • Eliminar tarea: Al lado derecho de cada tarea, se dispondrá de un icono en forma de "X" para la eliminación de cada tarea.
     • Filtrar tareas: En la parte inferior de la lista de tareas, se encuentran los botones "Todos | Activos | Completados" al seleccionar cada uno, se mostrara la lista completa de tareas, tareas activas sin completar y las tareas completadas respectivamente.
+
+## Link
+
+El link para ingresar a la app es: [App Lista de tareas](https://lista-tareas-tuclase-techtest.web.app/)
 
 ## Licencia
 
