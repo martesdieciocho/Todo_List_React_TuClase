@@ -2,6 +2,7 @@ import { useState } from "react";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+//Componente para manejar y renderizar la función de agregar una tarea.
 const TareaInput = ({ addTarea }) => {
 
     const [titulo, setTitulo] = useState('');

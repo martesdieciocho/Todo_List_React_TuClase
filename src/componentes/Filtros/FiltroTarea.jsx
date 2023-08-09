@@ -1,5 +1,6 @@
 import { BotonFiltro, ContenedorBotonesFiltros, ContenedorFiltros } from "./FiltrosTareas.components";
 
+//Renderización del contenedor de filtros
 const FiltroTarea = ({
     activeFilter, 
     mostrarTareas, 

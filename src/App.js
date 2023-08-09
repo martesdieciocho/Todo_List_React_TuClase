@@ -14,7 +14,7 @@ function App() {
   //manejo de estados para las tareas
   const [tareas, setTareas] = useState(JSON.parse(localStorage.getItem("tareas")) || []); //Cargando datos almacenados en el LocalStorage
 
-  //Petición para carga de lista de tareas mediante JSONPlaceHolder limitando el resultado solo a 5 valores. Condional para validar existencia de datos en LocalStorage
+  //Petición para carga de lista de tareas mediante JSONPlaceHolder limitando el resultado solo a 5 valores. Condicional para validar existencia de datos en LocalStorage
   useEffect(() => {
     const storedData = JSON.parse(localStorage.getItem("tareas"));
     if (storedData) {
@@ -49,6 +49,7 @@ function App() {
     localStorage.setItem("tareas", JSON.stringify(listaTareas)); //Actualizando los datos del localStorage
   }
 
+  //función para manipular el comportamiento al completar una tarea
   const handleCompletarTarea = (id) => {
     const actualizarLista = tareas.map(tarea => {
       if (tarea.id === id) {
@@ -61,6 +62,7 @@ function App() {
     setTareas(actualizarLista);
   }
 
+  //función para manipular el comportamiento al eliminar una tarea
   const handleEliminarTarea = (id) => {
     const actualizarLista = tareas.filter(tarea => tarea.id !== id)
     setTareas(actualizarLista);
@@ -74,7 +76,7 @@ function App() {
       draggable: true,
     });
   }
-
+  //Funciones para manejar el comportamiento de los filtros
   const mostrarTareas = () => {
     setFiltroActivo('todos')
   }
@@ -87,7 +89,7 @@ function App() {
     setFiltroActivo('completados')
   }
 
-  //Manejando el estado de los filtros mediante useEffect
+  //Manejando el estado de los filtros
   useEffect(() => {
     if (filtroActivo === 'todos') {
       setTareasFiltradas(tareas)
