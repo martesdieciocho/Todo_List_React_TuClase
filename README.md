@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# App Lista de tareas | TuClase | Alejandro García Gallego
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un proyecto desarrollador para presentar la prueba técnica propuesta por Tuclase
 
-## Available Scripts
+## Tabla de Contenidos
 
-In the project directory, you can run:
+- [Descripción](#descripción)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Licencia](#licencia)
 
-### `npm start`
+## Descripción
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este es un proyecto desarrollador para presentar la prueba técnica propuesta por Tuclase. Desarrollado con React y hosteado por Firebase. 
+El proyecto cuenta con varios componentes que permiten crear, visualizar, eliminar y completar tareas. Adicionalmente, se tienen filtros para mostrar las tareas
+según su estado
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+Para ejecutar este proyecto debes:
+    • Instalar dependencias: npm i
+    • Ejecutar proyecto: npm run start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Uso
 
-### `npm run build`
+El uso de la app es:
+    • Agregar tarea: Se agrega una tarea en el input dispuesto para esto, la acción se ejecuta presionando la tecla "Enter".
+    • Completar tarea: Al lado izquierdo de cada tarea, se dispondrá de un check que permite marcar la tarea como completada. Al clicar sobre este, el texto se subraya.
+    • Eliminar tarea: Al lado derecho de cada tarea, se dispondrá de un icono en forma de "X" para la eliminación de cada tarea.
+    • Filtrar tareas: En la parte inferior de la lista de tareas, se encuentran los botones "Todos | Activos | Completados" al seleccionar cada uno, se mostrara la lista completa de tareas, tareas activas sin completar y las tareas completadas respectivamente.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Licencia
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este proyecto fue desarrollado exclusivamente para presentar la prueba técnica de TuClase.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© Alejandro García Gallego | [Enlace al Repositorio](https://github.com/martesdieciocho/Todo_List_React_TuClase/tree/main)
